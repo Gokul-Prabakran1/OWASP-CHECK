@@ -15,6 +15,7 @@
     <!-- Build Plugins -->
     <build>
         <plugins>
+                 
             <!-- OWASP Dependency Check Plugin -->
             <plugin>
                 <groupId>org.owasp</groupId>
@@ -34,6 +35,12 @@
     <!-- Dependencies -->
     <dependencies>
         <!-- Vulnerable Apache Commons Collections -->
+        <dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version> <!-- Use an old, vulnerable version -->
+</dependency>
+     
         <dependency>
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
