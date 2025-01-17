@@ -7,19 +7,19 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "4.0.0",           // Known vulnerabilities in older versions
-    "mongoose": "4.13.8",        // Deprecated and insecure version
-    "lodash": "4.17.15",         // Vulnerable to prototype pollution
-    "jsonwebtoken": "5.0.0",     // Outdated; may have security issues
-    "ws": "3.0.0",               // Vulnerable WebSocket version
-    "helmet": "1.0.0"            // Old version; missing critical updates
+    "express": "4.0.0",           
+    "mongoose": "4.13.8",        
+    "lodash": "4.17.15",         
+    "jsonwebtoken": "5.0.0",     
+    "ws": "3.0.0",               
+    "helmet": "1.0.0"            
   },
   "devDependencies": {
-    "mocha": "2.0.1",            // Vulnerable to ReDoS attacks
-    "chai": "3.5.0"              // Outdated and insecure
+    "mocha": "2.0.1",            
+    "chai": "3.5.0"             
   },
   "engines": {
-    "node": ">=6.0.0"            // Unsupported Node.js version
+    "node": ">=6.0.0"            
   },
   "author": "Vulnerable Developer",
   "license": "ISC"
